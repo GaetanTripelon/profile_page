@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@media (max-width: 1080px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 10px;
+  }
+}
+
+body {
+  font-family: 'Lato', Helvetica, sans-serif;
+  background-color: #F5EDCE;
+  color: #1A0000;
+  font-size: 16px;
+  line-height: 32px;
+}
+h1, h2 {
+  font-family: 'Space Grotesk', Helvetica, sans-serif;
+  font-weight: bold;
+}
+h1{
+  font-size: 40px;
+  color: #58287F;
+  line-height: 100%;
+}
+h2 {
+  font-size: 24px;
+  color: #89C4E1;
+}
+.container {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+.white-card {
+  background-color: white;
+  border-radius: 8px;
+  border: #58287F solid 2px;
+  margin: 24px auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  padding: 30px;
+}
+.img-circle {
+  border-radius: 50%;
+  border: #58287F solid 2px;
+  box-shadow: 0 10px 30px;
+  width: 100px;
+  margin-bottom: 24px;
+}
+.btn-blue {
+  background-color: #89C4E1;
+  color:#1A0000;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+.btn-blue:hover {
+  background-color: #58287F;
+  color:#F5EDCE;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #1A0000;
+  margin: auto 24px;
+}
+.list-inline i:hover {
+  font-size: 50px;
+  color:#58287F;
+  margin: auto 24px;
+}
+ul {
+  display: block;
+}
