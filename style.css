@@ -1,39 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-@media (max-width: 1080px) {
-  .container {
-    width: 900px;
-  }
-}
-
-@media (max-width: 960px) {
-  /* Pour un écran < 960px, cette classe CSS s'applique */
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 720px) {
-  /* Pour un écran < 720px, cette classe CSS s'applique */
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  /* Pour un écran < 540px, cette classe CSS s'applique */
-  .container {
-    width: 300px;
-  }
-}
-
-@media (max-width: 360px) {
-  /* Pour un écran < 540px, cette classe CSS s'applique */
-  .container {
-    width: 10px;
-  }
-}
-
 body {
   font-family: 'Lato', Helvetica, sans-serif;
   background-color: #F5EDCE;
@@ -56,7 +22,7 @@ h2 {
 }
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 900px;
   text-align: center;
 }
 .white-card {
@@ -107,4 +73,38 @@ a {
 }
 ul {
   display: block;
+}
+
+@media (max-width: 1080px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 10px;
+  }
 }
